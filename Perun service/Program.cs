@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace Perun_service
 {
@@ -6,7 +7,11 @@ namespace Perun_service
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+
+            var configuration = builder.Build();
         }
     }
 }
