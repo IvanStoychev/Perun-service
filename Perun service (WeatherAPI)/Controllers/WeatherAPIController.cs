@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Perun_service.Controllers
+namespace Perun_service_WeatherAPI.Controllers
 {
     class WeatherAPIController
     {

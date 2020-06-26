@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Perun_service.Controllers
+namespace Perun_service_WeatherAPI.Controllers
 {
     /// <summary>
     /// Orchestrates all API calls for this service.

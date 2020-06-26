@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace Perun_service
+namespace Perun_service_WeatherAPI
 {
     class Program
     {
