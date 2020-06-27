@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perun service (WeatherAPI)", "Perun service (WeatherAPI)\Perun service (WeatherAPI).csproj", "{1BE543D6-7C49-466D-AFC6-F379B0F8CFAF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perun service (OpenWeather)", "Perun service (OpenWeather)\Perun service (OpenWeather).csproj", "{DF73C953-A646-4285-A4B6-FD7F4AE8B2FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perun service (OpenWeather)", "Perun service (OpenWeather)\Perun service (OpenWeather).csproj", "{DF73C953-A646-4285-A4B6-FD7F4AE8B2FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1BE543D6-7C49-466D-AFC6-F379B0F8CFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1BE543D6-7C49-466D-AFC6-F379B0F8CFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1BE543D6-7C49-466D-AFC6-F379B0F8CFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1BE543D6-7C49-466D-AFC6-F379B0F8CFAF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DF73C953-A646-4285-A4B6-FD7F4AE8B2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DF73C953-A646-4285-A4B6-FD7F4AE8B2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF73C953-A646-4285-A4B6-FD7F4AE8B2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
